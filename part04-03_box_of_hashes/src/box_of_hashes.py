@@ -10,9 +10,8 @@ def line(integer, string):
     
 if __name__ == "__main__":
     line(5, "LOL")
-        
-    
-    
+           
+   
 def box_of_hashes(height):
     # You should call function line here with proper parameters
 
