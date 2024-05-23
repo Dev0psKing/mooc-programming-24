@@ -8,7 +8,8 @@ def line(integer, string):
      print(integer * string[0])
 def triangle(size):
     # You should call function line here with proper parameters
-    line(4, "#")
+    for i in range(size):
+     line(size, "#")
 
 # You can test your function by calling it within the following block
 if __name__ == "__main__":
