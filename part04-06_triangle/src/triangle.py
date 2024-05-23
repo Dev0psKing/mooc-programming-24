@@ -7,6 +7,7 @@ def line(integer, string):
     else:
      print(integer * string[0])
 def triangle(size):
+    
     # You should call function line here with proper parameters
     for i in range(1, size + 1):
      line(i, "#")
